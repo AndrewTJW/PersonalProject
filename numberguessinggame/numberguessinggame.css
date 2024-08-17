@@ -1,0 +1,113 @@
+.container-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.container-title h1 {
+    font-family: Roboto, Arial;
+    font-size: 60px;
+    font-weight: bold;
+}
+.container-instruction {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+.container-instruction p {
+    font-family: Roboto, Arial;
+    font-size: 30px;
+    width: 700px;
+    text-align: left;
+}
+.container-guess-section {
+    display: flex;
+    justify-content: row;
+    justify-content: center;
+    margin-top: 80px;
+}
+.container-guess-section h1 {
+    font-family: Roboto;
+    font-size: 30px;
+}
+.wrapper-userinput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper-userinput input {
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Roboto;
+    height: 36px;
+    margin-top:4px;
+    width: 180px;
+    border: none;
+    border-bottom-style: solid;
+    border-color: rgb(0, 255, 157);
+    border-width: 4px;
+}
+.wrapper-userinput input:focus::placeholder {
+    color: transparent;
+}
+.wrapper-userinput input:focus {
+    outline: none;
+}
+.wrapper-submit-button {
+    margin-left: 50px;
+}
+.wrapper-submit-button button{
+    font-family: Roboto;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-style: solid;
+    border-color: darkred;
+    transition: background-color 0.35s;
+}
+.wrapper-submit-button button:hover {
+    cursor: pointer;
+    background-color: rgb(204, 0, 0);
+}
+.container-hint {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-hint p {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+.container-lives {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.livesleft {
+    font-size: 60px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: black;
+}
+.container-result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper-result p {
+    font-size: 60px;
+    font-family: Roboto;
+    color: rgb(0, 255, 149);
+}
+
