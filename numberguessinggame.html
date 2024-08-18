@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Test Your Instict!</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="numberguessinggame.css">
+    </head>
+    <body>
+        <div class="container-title">
+            <h1>Test your instinct! &#129300</h1>
+        </div>
+        <div class="container-instruction">
+            <div class="wrapper-instruction">
+                <p>We have selected a random number between 1 and 100. 
+                   See if you can guess it in 10 turns or fewer. 
+                   We'll tell you if your guess was too high or too low.</p>
+            </div>
+        </div>
+        <div class="container-guess-section">
+            <div class="wrapper-userinput">
+                <input class="userinput" type="text" min="1" max="100" placeholder="Your guess">
+            </div>
+            <div class="wrapper-submit-button">
+                <button class="submit">SUBMIT!</button>
+            </div>
+        </div>
+        <div class="container-hint">
+            <div class="wrapper-hint">
+                <p class="hint"></p>
+            </div>
+        </div>
+        <div class="container-lives">
+            <div class="wrapper-livesleft">
+                <p class="livesleft">10 <span class="heart" style="color: red;">&#x2764</span> left!</p>
+            </div>
+        </div>
+        <div class="container-result">
+            <div class="wrapper-result">
+                <p class="result"></p>
+            </div>
+        </div>
+
+        <script src="numberguessinggame.js"></script>
+    </body>
+</html>
